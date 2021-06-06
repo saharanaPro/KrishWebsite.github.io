@@ -1,0 +1,54 @@
+
+<html>
+    <head> 
+    
+    <style>
+body{background-color:black;}
+h2{color:cyan;}
+button{background-color:white;
+    border: black;
+}
+button{color:blue;
+    border: none;
+    border-radius: 24px;
+    outline: none;
+}
+p{color:yellow;}
+</style>
+
+    <h2>Avengers Assemble :</h2></head>
+    <body>
+        <form align="center">
+    
+        <script>
+        function thor(){
+            document.getElementById("sir").src ="Assets/Imgs/Thor.jpg"
+        }
+        
+            function Krish(){
+                document.getElementById("sir").src ="Assets/Imgs/Captain America.jpg"}
+                
+        function hello(){
+            document.getElementById("sir").src ="Assets/Imgs/Spiderman.jpg"}
+            
+        function tony(){
+            document.getElementById("sir").src ="Assets/Imgs/Iron Man tony.jpg"}
+            function owner(){
+                document.getElementById("rana").innerHTML="This project is made by : Krish Majhi <br><br> Teacher : Rana Saha<br><br>Languages used : HTML 5 ; Javascript ; CSS" }
+        </script>
+        
+<img id="sir" src="Assets/Imgs/Avengers.jpg" height="320" width="340" />
+
+   <br>   <br>  <button type="button" onclick="Krish();">Captain</button>
+        
+           <button type="button" onclick="hello();">Spiderman</button> 
+              
+          <button type="button" onclick="tony();">Iron Man</button>
+          
+             <button type="button" onclick="thor();">Thor</button> 
+             <p id="rana"></p>
+             
+               <button type="button"  onclick="owner();">info</button> 
+           </form>  
+    </body>
+</html>

@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+       <h3> - : BULB JAVASCRIPT : -</h3>
+        <style>
+    h3{color:white;}    
+    button{background-color:white;}
+    button{border:none;
+        border-radius: 7px;
+    }
+    body{background-color:black;}
+    button{height:50px;
+        width: 50px;
+    }
+    
+        </style>
+    </head>
+    <body align ="center">
+        <script>
+            function on(){
+                document.getElementById("bulb").src ="Assets/Imgs/IMG_20210416_142553.jpg"
+            }
+            function off(){
+                document.getElementById("bulb").src ="Assets/Imgs/IMG_20210416_142643.jpg"
+            }
+        </script>
+        <img id="bulb" src="Assets/Imgs/IMG_20210416_142643.jpg" height="320" width="340"></img>
+        <br> <br>
+        <button type="button" onclick="on()"> On </button>
+         
+        <button type="button" onclick="off()">  Off  </button>
+    </body>
+</html>
